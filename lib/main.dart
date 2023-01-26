@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         title: 'GreenGroce',
         theme: ThemeData(
           primarySwatch: Colors.green,
+          scaffoldBackgroundColor: Colors.grey[300],
         ),
         home: const SignInScreen());
   }
